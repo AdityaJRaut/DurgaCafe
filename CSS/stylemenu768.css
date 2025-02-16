@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 50%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+
+/* Herosection CSS */
+main {
+    justify-items: center;
+}
+
+.our_menu {
+
+    justify-items: center;
+    margin-top: 8vh;
+    width: 80%;
+}
+
+.our_menu img {
+    width: 200px;
+    margin-top: 50px;
+}
+
+.our_menu h1 {
+
+    margin: 50px 0px;
+    font-size: 80px;
+}
+
+.our_menu p {
+    line-height: 1.6;
+    font-size: 24px;
+}
+
+/* Coffee Div */
+.coffee {
+    width: 80%;
+    justify-items: center;
+}
+
+.coffee h1 {
+    margin: 40px 0px;
+    font-size: 70px;
+}
+
+.coffee h3 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.coffee img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+/* Breakfast Div */
+.breakfast {
+    width: 80%;
+    justify-items: center;
+}
+
+.breakfast h1 {
+    margin: 40px 0px;
+    font-size: 70px;
+}
+
+.breakfast h3 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.breakfast img {
+    width: 200px;
+    margin: 50px;
+}
+
+/* snacks Div */
+.snacks {
+    width: 80%;
+    justify-items: center;
+}
+
+.snacks h1 {
+    margin: 40px 0px;
+    font-size: 70px;
+}
+
+.snacks h3 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.snacks img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+/* special Div */
+.special {
+    width: 80%;
+    justify-items: center;
+}
+
+.special h1 {
+    margin: 40px 0px;
+    font-size: 70px;
+}
+
+.special h3 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.special img {
+    width: 200px;
+    margin: 50px;
+}
+
+footer {
+    padding: 20px 0px;
+    background-color: black;
+
+}
+
+footer p {
+    color: white;
+}

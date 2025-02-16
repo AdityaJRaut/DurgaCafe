@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;    
+    top: 0;
+    background-color: white;
+    border: 1px solid red;
+
+
+}
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 60%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+#herosection {
+    position: relative;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#herosection img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+#herosection_text,
+#herosection_maintext,
+#herosection_ownername {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#herosection_text {
+    top: 30%;
+    font-size: 12px;
+}
+
+#herosection_maintext {
+    top: 45%;
+    font-size: 18px;
+    color: yellow;
+}
+
+#herosection_ownername {
+    bottom: 35%;
+    font-size: 10px;
+}
+
+#herosection_button_div {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+#herosection_button {
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(129, 219, 129);
+}
+
+.aboutdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+.aboutdiv img{
+    width: 100%;
+}
+
+.aboutdiv_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.aboutdiv_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.coffee_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.coffee_images img {
+    width: 45%;
+    margin: 5px;
+}
+
+.sidebysidemenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.sidebysidemenu img {
+    width: 90%;
+    margin: 5px;
+}
+
+#sidebysidemenu_button_div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sidebysidemenu_button_div button {
+    background-color: rgb(79, 196, 79);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.awards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.awards img {
+    width: 100%;
+}
+
+.awards_header {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.threeimages{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.threeimages img{
+    width: 30%;
+}
+
+.franchise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.franchise img {
+    width: 100%;
+}
+
+.franchise h1 {
+    position: absolute;
+    top: 30%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.franchise p {
+    position: absolute;
+    top: 60%;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 10px;
+    background-size: cover;
+}
+
+.footer div {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.footer div h1 {
+    font-size: 18px;
+    color: rgb(110, 212, 110);
+}
+
+.footer div p {
+    font-size: 12px;
+}
