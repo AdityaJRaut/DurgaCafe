@@ -1,0 +1,2327 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 60%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+
+#herosection {
+    position: relative;
+    width: 100%;
+}
+
+#herosection img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+#herosection_text,
+#herosection_maintext,
+#herosection_ownername {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#herosection_text {
+    top: 30%;
+    font-size: 12px;
+}
+
+#herosection_maintext {
+    top: 45%;
+    font-size: 18px;
+    color: yellow;
+}
+
+#herosection_ownername {
+    bottom: 35%;
+    font-size: 10px;
+}
+
+#herosection_button_div {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+#herosection_button {
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(129, 219, 129);
+}
+
+.aboutdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.aboutdiv img {
+    width: 100%;
+}
+
+.aboutdiv_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.aboutdiv_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.coffee_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.coffee_images img {
+    width: 45%;
+    margin: 5px;
+}
+
+.sidebysidemenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.sidebysidemenu img {
+    width: 90%;
+    margin: 5px;
+}
+
+#sidebysidemenu_button_div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sidebysidemenu_button_div button {
+    background-color: rgb(79, 196, 79);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.awards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.awards img {
+    width: 100%;
+}
+
+.awards_header {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.threeimages {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.threeimages img {
+    width: 30%;
+}
+
+.franchise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.franchise img {
+    width: 100%;
+}
+
+.franchise h1 {
+    position: absolute;
+    top: 30%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.franchise p {
+    position: absolute;
+    top: 60%;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 10px;
+    background-size: cover;
+}
+
+.footer div {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.footer div h1 {
+    font-size: 18px;
+    color: rgb(110, 212, 110);
+}
+
+.footer div p {
+    font-size: 12px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 60%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+
+#herosection {
+    position: relative;
+    width: 100%;
+}
+
+#herosection img {
+
+    width: 100%;
+    filter: brightness(50%);
+    height: 400px;
+}
+
+#herosection_text,
+#herosection_maintext {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#herosection_text {
+    bottom: 10%;
+    font-size: 18px;
+}
+
+#herosection_maintext {
+    top: 45%;
+    font-size: 30px;
+
+}
+
+.successstory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.successstory_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.successstory_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.bestcoldcoffee {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.bestcoldcoffee_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.bestcoldcoffee_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.bestcoldcoffee_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.bestcoldcoffee_button button {
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(129, 219, 129);
+}
+
+.Journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.Journey_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.Journey_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 10px;
+    background-size: cover;
+}
+
+.footer div {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.footer div h1 {
+    font-size: 18px;
+    color: rgb(110, 212, 110);
+}
+
+.footer div p {
+    font-size: 12px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 60%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+
+#herosection {
+    position: relative;
+    width: 100%;
+}
+
+#herosection img {
+    width: 100%;
+    height: 500px;
+    filter: brightness(50%);
+}
+
+#herosection_text,
+#herosection_maintext,
+#herosection_ownername {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#herosection_text {
+    top: 30%;
+    font-size: 40px;
+}
+
+#herosection_maintext {
+    top: 45%;
+    font-size: 60px;
+    color: white;
+}
+
+
+.contactus {
+
+    margin: 150px auto 0px auto;
+    width: 80%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus h1 {
+    font-size: 60px;
+}
+
+.contactus button {
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px;
+}
+
+.address div {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.textbox {
+
+    width: 100%;
+    margin-right: 20px;
+
+}
+
+.textbox button {
+
+    width: 80%;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(78, 182, 121);
+    border: none;
+}
+
+.textbox input {
+
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(202, 201, 201);
+    border: none;
+}
+
+.address {
+    width: 100%;
+    ;
+    text-align: left;
+    padding: 40px;
+}
+
+.address h1 {
+    font-weight: lighter;
+}
+
+#contactus_textarea {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(202, 201, 201);
+}
+
+
+footer {
+    padding: 20px 0px;
+    background-color: black;
+
+}
+
+footer p {
+    color: white;
+}
+
+.map iframe {
+    height: 100px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 60%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+
+/* Herosection CSS */
+main {
+    justify-items: center;
+}
+
+.our_menu {
+
+    justify-items: center;
+    margin-top: 8vh;
+    width: 80%;
+}
+
+.our_menu img {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.our_menu h1 {
+
+    margin: 50px 0px;
+    font-size: 50px;
+}
+
+.our_menu p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Coffee Div */
+.coffee {
+    width: 80%;
+    justify-items: center;
+}
+
+.coffee h1 {
+    margin: 40px 0px;
+}
+
+.coffee h3 {
+    margin: 20px 0px;
+}
+
+.coffee img {
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+/* Breakfast Div */
+.breakfast {
+    width: 80%;
+    justify-items: center;
+}
+
+.breakfast h1 {
+    margin: 40px 0px;
+}
+
+.breakfast h3 {
+    margin: 20px 0px;
+}
+
+.breakfast img {
+    width: 80px;
+    margin: 50px;
+}
+
+/* snacks Div */
+.snacks {
+    width: 80%;
+    justify-items: center;
+}
+
+.snacks h1 {
+    margin: 40px 0px;
+}
+
+.snacks h3 {
+    margin: 20px 0px;
+}
+
+.snacks img {
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+/* special Div */
+.special {
+    width: 80%;
+    justify-items: center;
+}
+
+.special h1 {
+    margin: 40px 0px;
+}
+
+.special h3 {
+    margin: 20px 0px;
+}
+
+.special img {
+    width: 80px;
+    margin: 50px;
+}
+
+footer {
+    padding: 20px 0px;
+    background-color: black;
+
+}
+
+footer p {
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        background-color: white;
+
+
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+
+    #menu_icon {
+
+        top: 10px;
+        right: 15px;
+        position: absolute;
+
+    }
+
+    .bar {
+        width: 25px;
+        height: 2px;
+        background-color: #4fd884;
+        margin: 4px;
+        border-radius: 25%;
+    }
+
+    #nav_links {
+        display: none;
+    }
+
+    #herosection {
+        position: relative;
+        width: 100%;
+    }
+
+    #herosection img {
+        width: 100%;
+        filter: brightness(50%);
+    }
+
+    #herosection_text {
+        position: absolute;
+        top: 35%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+
+    #herosection_maintext {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+        color: yellow;
+    }
+
+    #herosection_ownername {
+        position: absolute;
+        bottom: 30%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    #herosection_button_div {
+        position: absolute;
+        bottom: 15%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #herosection_button {
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 10px 20px;
+        background-color: rgb(129, 219, 129);
+        border: none;
+    }
+
+    .aboutdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        width: 100%;
+        padding: 80px;
+    }
+
+    .aboutdiv_image {
+        width: 40%;
+    }
+
+    .aboutdiv_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutdiv_text {
+        width: 55%;
+    }
+
+    .aboutdiv_text h1 {
+        font-size: 32px;
+    }
+
+    .aboutdiv_text p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .coffee_images {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .coffee_images img {
+        width: 25%;
+    }
+
+    .sidebysidemenu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .sidebysidemenu img {
+        width: 22%;
+    }
+
+    #sidebysidemenu_button_div {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #sidebysidemenu_button_div button {
+        background-color: rgb(79, 196, 79);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 12px 28px;
+    }
+
+    .awards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .awards img {
+        width: 45%;
+    }
+
+    .awards_header {
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .threeimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .threeimages img {
+        width: 30%;
+    }
+
+    .franchise {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .franchise img {
+        width: 100%;
+    }
+
+    .franchise h1 {
+        position: absolute;
+        top: 25%;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    .franchise p {
+        position: absolute;
+        top: 50%;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        padding: 80px;
+        background-size: cover;
+    }
+
+    .footer div {
+        width: 30%;
+    }
+
+    .footer div h1 {
+        font-size: 28px;
+        color: rgb(110, 212, 110);
+    }
+
+    .footer div p {
+        font-size: 16px;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Navbar CSS */
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background-color: white;
+
+
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+
+    #menu_icon {
+
+        top: 10px;
+        right: 15px;
+        position: absolute;
+
+    }
+
+    .bar {
+        width: 50px;
+        height: 2px;
+        background-color: #4fd884;
+        margin: 8px;
+        border-radius: 25%;
+    }
+
+    #nav_links {
+        display: none;
+    }
+
+    /* Herosection CSS */
+    main {
+        justify-items: center;
+    }
+
+    .our_menu {
+
+        justify-items: center;
+        margin-top: 8vh;
+        width: 80%;
+    }
+
+    .our_menu img {
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .our_menu h1 {
+
+        margin: 50px 0px;
+        font-size: 80px;
+    }
+
+    .our_menu p {
+        line-height: 1.6;
+        font-size: 24px;
+    }
+
+    /* Coffee Div */
+    .coffee {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .coffee h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .coffee h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .coffee img {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+
+    /* Breakfast Div */
+    .breakfast {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .breakfast h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .breakfast h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .breakfast img {
+        width: 200px;
+        margin: 50px;
+    }
+
+    /* snacks Div */
+    .snacks {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .snacks h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .snacks h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .snacks img {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+
+    /* special Div */
+    .special {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .special h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .special h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .special img {
+        width: 200px;
+        margin: 50px;
+    }
+
+    footer {
+        padding: 20px 0px;
+        background-color: black;
+
+    }
+
+    footer p {
+        color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        background-color: white;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+
+    #menu_icon {
+
+        top: 10px;
+        right: 15px;
+        position: absolute;
+
+    }
+
+    .bar {
+        width: 25px;
+        height: 2px;
+        background-color: #4fd884;
+        margin: 4px;
+        border-radius: 25%;
+    }
+
+    #nav_links {
+        display: none;
+    }
+
+    #herosection {
+        position: relative;
+        width: 100%;
+    }
+
+    #herosection img {
+        width: 100%;
+        height: 500px;
+        filter: brightness(50%);
+    }
+
+    #herosection_text,
+    #herosection_maintext,
+    #herosection_ownername {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    #herosection_text {
+        top: 30%;
+        font-size: 40px;
+    }
+
+    #herosection_maintext {
+        top: 45%;
+        font-size: 80px;
+        color: white;
+    }
+
+
+    .contactus {
+
+        margin: 150px auto 0px auto;
+        width: 80%;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactus h1 {
+        font-size: 60px;
+    }
+
+    .contactus button {
+        height: 50px;
+        width: 50px;
+        background-color: rgb(186, 189, 186);
+        margin: 40px 10px;
+        border: none;
+    }
+
+    #submit {
+        height: 50px;
+        width: 100px;
+        background-color: rgb(127, 224, 127);
+        margin: 40px 10px;
+        border: none;
+    }
+
+    .address div {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+    .textbox {
+
+        width: 100%;
+        margin-right: 20px;
+
+    }
+
+    .textbox button {
+
+        width: 40%;
+        height: 40px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        background-color: rgb(78, 182, 121);
+        border: none;
+
+    }
+
+    .textbox input {
+
+        width: 100%;
+        height: 40px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        background-color: rgb(202, 201, 201);
+        border: none;
+    }
+
+    .address {
+        width: 100%;
+        ;
+        text-align: left;
+        padding: 40px;
+    }
+
+    .address h1 {
+        font-weight: lighter;
+    }
+
+    #contactus_textarea {
+        height: 150px;
+        width: 100%;
+        background-color: rgb(202, 201, 201);
+    }
+
+    footer {
+        padding: 20px 0px;
+        background-color: black;
+
+    }
+
+    footer p {
+        color: white;
+    }
+
+    .map iframe {
+        height: 400px;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        background-color: white;
+    
+    
+    }
+    
+    .logo {
+        width: 30%;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .navbar {
+        width: 50%;
+    }
+    
+    
+    #menu_icon {
+    
+        top: 10px;
+        right: 15px;
+        position: absolute;
+    
+    }
+    
+    .bar {
+        width: 25px;
+        height: 2px;
+        background-color: #4fd884;
+        margin: 4px;
+        border-radius: 25%;
+    }
+    
+    #nav_links {
+        display: none;
+    }
+
+    #herosection img {
+        width: 100%;
+        height: 500px;
+        filter: brightness(50%);
+    }
+
+    #herosection_text {
+        position: absolute;
+        top: 90%;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+
+    #herosection_maintext {
+        position: absolute;
+        bottom: 20%;
+        font-size: 36px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+
+    .successstory,
+    .bestcoldcoffee,
+    .Journey {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        padding: 50px 30px;
+    }
+
+    .successstory_text h1,
+    .bestcoldcoffee_text h1,
+    .Journey_text h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .successstory_text p,
+    .bestcoldcoffee_text p,
+    .Journey_text p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .bestcoldcoffee_button {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .bestcoldcoffee_button button {
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 10px 20px;
+        border: none;
+        background-color: rgb(129, 219, 129);
+        cursor: pointer;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 40px 10px;
+        background-size: cover;
+    }
+
+    .footer div {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .footer div h1 {
+        font-size: 20px;
+        color: rgb(110, 212, 110);
+    }
+
+    .footer div p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5%;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .navbar {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    #menu_icon {
+        display: none;
+    }
+
+    #nav_links {
+        display: block;
+    }
+
+    #nav_links ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    #nav_links ul li {
+        list-style: none;
+    }
+
+    #nav_links ul li a {
+        text-decoration: none;
+        color: rgb(115, 214, 123);
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    #nav_links ul li a:hover {
+        color: #4fd884;
+    }
+
+    #herosection {
+        position: relative;
+    }
+
+    #herosection img {
+        width: 100%;
+        filter: brightness(40%);
+    }
+
+    #herosection_text {
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    #herosection_maintext {
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        width: 100%;
+        font-size: 100px;
+        color: yellow;
+        transition-duration: 2ms;
+        transition: ease-in;
+    }
+
+    #herosection_ownername {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    #herosection_button_div {
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #herosection_button {
+
+        border-radius: 5px;
+        font-size: 16px;
+        border: none;
+        padding: 12px 24px;
+        background-color: rgb(129, 219, 129);
+    }
+
+    .aboutdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        background-color: white;
+        width: 80%;
+        /* margin: 200px auto; */
+        padding: 100px 0px;
+        margin-top: -150px;
+
+
+    }
+
+    .aboutdiv_image_coldCoffee img {
+
+        width: 100%;
+    }
+
+    .aboutdiv_image img {
+        width: 40vw;
+        height: auto;
+    }
+
+    .aboutdiv_text {
+        width: 40vw;
+        /* background-color: grey; */
+    }
+
+    .aboutdiv_text h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .aboutdiv_text p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .coffee_images {
+
+        display: flex;
+        justify-content: center;
+        position: relative;
+        /* background-color: grey; */
+
+        width: 100%;
+    }
+
+    .coffee_images img {
+        width: 30%;
+    }
+
+    .sidebysidemenu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        /* background-color: grey; */
+
+    }
+
+    .sidebysidemenu img {
+        width: 23vw;
+    }
+
+    #sidebysidemenu_button_div button {
+
+        background-color: rgb(79, 196, 79);
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 12px 24px;
+        margin-top: 20px;
+
+    }
+
+    .awards {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .awards img {
+        width: 45%;
+        margin: 20px;
+
+
+    }
+
+    .awards_header {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin: 60px;
+    }
+
+    .threeimages {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .threeimages img {
+        width: 30%;
+    }
+
+    .franchise {
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .franchise img {
+        width: 100%;
+        position: relative;
+    }
+
+    .franchise h1 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .franchise p {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-top: 200px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        padding: 100px 0px;
+        background-image: url(../Images/durgascafe/grill-sandwich-edited-already.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        /* filter: brightness(40%); */
+    }
+
+    .footer div {
+        width: 30%;
+
+    }
+
+    .footer div h1 {
+
+        margin: 10px 0px;
+        font-size: 48px;
+        color: rgb(110, 212, 110);
+    }
+
+    .footer div p {
+        font-size: 20px;
+        color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Navbar CSS */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5%;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .navbar {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    #menu_icon {
+        display: none;
+    }
+
+    #nav_links {
+        display: block;
+    }
+
+    #nav_links ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    #nav_links ul li {
+        list-style: none;
+    }
+
+    #nav_links ul li a {
+        text-decoration: none;
+        color: rgb(115, 214, 123);
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    #nav_links ul li a:hover {
+        color: #4fd884;
+    }
+
+    /* Herosection CSS */
+    main {
+        justify-items: center;
+    }
+
+    .our_menu {
+
+        justify-items: center;
+        margin-top: 16vh;
+        width: 80%;
+    }
+
+    .our_menu img {
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .our_menu h1 {
+
+        margin: 50px 0px;
+        font-size: 80px;
+    }
+
+    .our_menu p {
+        line-height: 1.6;
+        font-size: 24px;
+    }
+
+    /* Coffee Div */
+    .coffee {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .coffee h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .coffee h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .coffee img {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+
+    /* Breakfast Div */
+    .breakfast {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .breakfast h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .breakfast h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .breakfast img {
+        width: 200px;
+        margin: 50px;
+    }
+
+    /* snacks Div */
+    .snacks {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .snacks h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .snacks h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .snacks img {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+
+    /* special Div */
+    .special {
+        width: 80%;
+        justify-items: center;
+    }
+
+    .special h1 {
+        margin: 40px 0px;
+        font-size: 70px;
+    }
+
+    .special h3 {
+        margin: 20px 0px;
+        font-size: 30px;
+    }
+
+    .special img {
+        width: 200px;
+        margin: 50px;
+    }
+
+    footer {
+        padding: 20px 0px;
+        background-color: black;
+
+    }
+
+    footer p {
+        color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5%;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .logo {
+        width: 30%;
+    }
+    
+    .logo img {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .navbar {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    
+    #menu_icon {
+        display: none; 
+    }
+    
+    #nav_links {
+        display: block;
+    }
+    
+    #nav_links ul {
+        display: flex;
+        gap: 20px;
+    }
+    
+    #nav_links ul li {
+        list-style: none;
+    }
+    
+    #nav_links ul li a {
+        text-decoration: none;
+        color: rgb(115, 214, 123);
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    
+    #nav_links ul li a:hover {
+        color: #4fd884;
+    }
+    
+    #herosection {
+        position: relative;  
+    }
+    
+    #herosection img {
+        width: 100%;
+       
+    }
+    
+    #herosection_maintext {
+        position: absolute;
+        top: 30%;   
+        text-align: center;
+        width: 50%;
+        font-size: 100px;
+        color: rgb(255, 255, 255);   
+    }
+    
+    .contactus{
+    
+        margin: 150px auto 0px auto;
+        width: 80%;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .contactus h1{
+        font-size: 60px;
+    }
+    .contactus button{
+        height: 50px;
+        width: 200px;
+        background-color: rgb(112, 211, 112);
+        margin: 40px 10px;
+        border: none;
+    }
+    
+    .address div{
+        margin-bottom: 50px;
+    }
+    .textandaddress{
+        display: flex;
+    }
+    .textbox {
+    
+        width: 60%;
+        margin-right: 20px;
+       
+    }
+    
+    .textbox input{
+    
+        width: 100%;
+        height: 40px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        background-color: rgb(202, 201, 201);
+        border: none;
+    }
+    .address{
+        width: 40%;;
+       
+        
+        padding: 40px;
+    }
+    #contactus_textarea{
+        height: 150px;
+        width: 100%;
+        background-color: rgb(202, 201, 201);
+    }
+    
+    footer {
+        padding: 20px 0px;
+        background-color: black;
+        
+    }
+    footer p{
+        color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5%;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .navbar {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    #menu_icon {
+        display: none;
+    }
+
+    #nav_links {
+        display: block;
+    }
+
+    #nav_links ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    #nav_links ul li {
+        list-style: none;
+    }
+
+    #nav_links ul li a {
+        text-decoration: none;
+        color: rgb(115, 214, 123);
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    #nav_links ul li a:hover {
+        color: #4fd884;
+    }
+
+    #herosection img {
+        width: 100%;
+        height: 600px;
+        filter: brightness(60%);
+    }
+
+    #herosection_text {
+        position: absolute;
+        top: 90%;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+
+    #herosection_maintext {
+        position: absolute;
+        top: 50%;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+
+    .successstory,
+    .bestcoldcoffee,
+    .Journey {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        padding: 60px 50px;
+    }
+
+    .successstory_text h1,
+    .bestcoldcoffee_text h1,
+    .Journey_text h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .successstory_text p,
+    .bestcoldcoffee_text p,
+    .Journey_text p {
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .bestcoldcoffee_button {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .bestcoldcoffee_button button {
+        border-radius: 8px;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        background-color: rgb(129, 219, 129);
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 50px 20px;
+        background-size: cover;
+    }
+
+    .footer div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .footer div h1 {
+        font-size: 22px;
+        color: rgb(110, 212, 110);
+    }
+
+    .footer div p {
+        font-size: 16px;
+    }
+}

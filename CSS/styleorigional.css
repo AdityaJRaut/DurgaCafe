@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar_header {
+    width: 50%;
+
+}
+
+div img {
+    width: 40%;
+}
+
+#nav_links {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.list {
+    color: green;
+    text-decoration: none;
+}
+
+#herosection {
+    position: relative;
+}
+
+#herosection img {
+    width: 100%;
+    filter: brightness(40%);
+}
+
+#herosection_text {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#herosection_maintext {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    color: yellow;
+    transition-duration: 2ms;
+    transition: ease-in;
+}
+
+#herosection_ownername {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#herosection_button_div {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+#herosection_button {
+
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    padding: 12px 24px;
+    background-color: rgb(129, 219, 129);
+}
+
+.aboutdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: white;
+    width: 80%;
+    /* margin: 200px auto; */
+    padding: 100px 0px;
+    margin-top: -150px;
+    
+
+}
+.aboutdiv_image_coldCoffee img{
+
+    width: 100%;
+}
+
+.aboutdiv_image img {
+    width: 40vw;
+    height: auto;
+}
+
+.aboutdiv_text {
+    width: 40vw;
+    /* background-color: grey; */
+}
+
+.aboutdiv_text h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.aboutdiv_text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.coffee_images{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-color: grey; */
+   
+    width: 100%;
+}
+.coffee_images img{
+    width: 30%;
+}
+.sidebysidemenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    /* background-color: grey; */
+    
+}
+.sidebysidemenu img{
+    width: 23vw;
+}
+#sidebysidemenu_button_div button{
+    
+    background-color: rgb(79, 196, 79);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin-top: 20px;
+    
+}
+.awards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.awards img{
+    width: 45%;
+    margin: 20px;
+    
+    
+}
+.awards_header{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: 60px;
+}
+
+.threeimages{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.threeimages img{
+    width: 30%;
+}
+
+.franchise{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.franchise img{
+    width: 100%;
+    position: relative;
+}
+
+.franchise h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 100px;
+}
+.franchise p{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    padding: 100px 0px;
+    background-image: url(../Images/durgascafe/grill-sandwich-edited-already.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(40%);
+}
+.footer div{
+    width: 30%;
+    
+}
+.footer div h1{
+
+    margin: 20px 0px;
+    font-size: 48px;
+    color: rgb(110, 212, 110);
+}
+
+.footer div p{
+    font-size: 20px;
+}
+

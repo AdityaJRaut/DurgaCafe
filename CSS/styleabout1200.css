@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.navbar {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+#menu_icon {
+    display: none; 
+}
+
+#nav_links {
+    display: block;
+}
+
+#nav_links ul {
+    display: flex;
+    gap: 20px;
+}
+
+#nav_links ul li {
+    list-style: none;
+}
+
+#nav_links ul li a {
+    text-decoration: none;
+    color: rgb(115, 214, 123);
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+#nav_links ul li a:hover {
+    color: #4fd884;
+}
+
+#herosection img {
+    width: 100%;
+    height: 600px;
+    filter: brightness(60%);
+}
+
+#herosection_text {
+    position: absolute;
+    bottom: 15%;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#herosection_maintext {
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.successstory,
+.bestcoldcoffee,
+.Journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 60px 50px;
+}
+
+.successstory_text h1,
+.bestcoldcoffee_text h1,
+.Journey_text h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.successstory_text p,
+.bestcoldcoffee_text p,
+.Journey_text p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.bestcoldcoffee_button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bestcoldcoffee_button button {
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    background-color: rgb(129, 219, 129);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 20px;
+    background-size: cover;
+}
+
+.footer div {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.footer div h1 {
+    font-size: 22px;
+    color: rgb(110, 212, 110);
+}
+
+.footer div p {
+    font-size: 16px;
+}

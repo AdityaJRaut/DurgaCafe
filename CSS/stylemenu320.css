@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+
+
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 60%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+
+/* Herosection CSS */
+main {
+    justify-items: center;
+}
+
+.our_menu {
+
+    justify-items: center;
+    margin-top: 8vh;
+    width: 80%;
+}
+
+.our_menu img {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.our_menu h1 {
+
+    margin: 50px 0px;
+    font-size: 50px;
+}
+
+.our_menu p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Coffee Div */
+.coffee {
+    width: 80%;
+    justify-items: center;
+}
+
+.coffee h1 {
+    margin: 40px 0px;
+}
+
+.coffee h3 {
+    margin: 20px 0px;
+}
+
+.coffee img {
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+/* Breakfast Div */
+.breakfast {
+    width: 80%;
+    justify-items: center;
+}
+
+.breakfast h1 {
+    margin: 40px 0px;
+}
+
+.breakfast h3 {
+    margin: 20px 0px;
+}
+
+.breakfast img {
+    width: 80px;
+    margin: 50px;
+}
+
+/* snacks Div */
+.snacks {
+    width: 80%;
+    justify-items: center;
+}
+
+.snacks h1 {
+    margin: 40px 0px;
+}
+
+.snacks h3 {
+    margin: 20px 0px;
+}
+
+.snacks img {
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+/* special Div */
+.special {
+    width: 80%;
+    justify-items: center;
+}
+
+.special h1 {
+    margin: 40px 0px;
+}
+
+.special h3 {
+    margin: 20px 0px;
+}
+
+.special img {
+    width: 80px;
+    margin: 50px;
+}
+
+footer {
+    padding: 20px 0px;
+    background-color: black;
+
+}
+
+footer p {
+    color: white;
+}

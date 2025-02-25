@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: white;
+
+
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 60%;
+}
+
+
+#menu_icon {
+
+    top: 10px;
+    right: 15px;
+    position: absolute;
+
+}
+
+.bar {
+    width: 25px;
+    height: 2px;
+    background-color: #4fd884;
+    margin: 4px;
+    border-radius: 25%;
+}
+
+#nav_links {
+    display: none;
+}
+
+#herosection {
+    position: relative;
+    width: 100%;
+}
+
+#herosection img {
+
+    width: 100%;
+    filter: brightness(50%);
+    height: 400px;
+}
+
+#herosection_text,
+#herosection_maintext {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#herosection_text {
+    bottom: 10%;
+    font-size: 18px;
+}
+
+#herosection_maintext {
+    top: 45%;
+    font-size: 30px;
+
+}
+
+.successstory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.successstory_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.successstory_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.bestcoldcoffee {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.bestcoldcoffee_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.bestcoldcoffee_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.bestcoldcoffee_button {
+    position: absolute;
+    bottom: 0%;
+    right: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.bestcoldcoffee_button button {
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(129, 219, 129);
+}
+
+.Journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.Journey_text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.Journey_text p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 10px;
+    background-size: cover;
+}
+
+.footer div {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.footer div h1 {
+    font-size: 18px;
+    color: rgb(110, 212, 110);
+}
+
+.footer div p {
+    font-size: 12px;
+}
